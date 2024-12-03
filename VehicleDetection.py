@@ -800,7 +800,7 @@ def full_pipeline(img):
 # <codecell>
 
 history.clear()
-test_output = "output_videos/video2_output.mp4"
-clip = VideoFileClip("test_videos/video2.mp4")
+test_output = "output_videos/video4_output.mp4"
+clip = VideoFileClip("test_videos/video4.mp4")
 test_clip = clip.image_transform(full_pipeline)
 test_clip.write_videofile(test_output, audio=False)
